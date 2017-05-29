@@ -15,12 +15,19 @@ To use this in your app, go to project root gradle file and add the following st
 		}
 	
 	}
-  
-  
-  Also open project gradle file and add the following statement in dependencies
+
+Also open project gradle file and add the following statement in dependencies
   
  
  		dependencies
  		{
 		compile 'com.github.developeravskh:SilpCustomButton:1.0'
 		}
+
+In xml file define the custom button as
+<silptech.developerabhi.silpbutton.SilpCustomButton
+android:id="@+id/clickbtn"
+android:layout_margin="10dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+></silptech.developerabhi.silpbutton.SilpCustomButton>
