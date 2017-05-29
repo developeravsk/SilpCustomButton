@@ -25,7 +25,6 @@ import java.util.ArrayList;
 /**
  * Created by abhi on 5/29/2017.
  */
-
 public class SilpCustomButton extends LinearLayout {
     public static final String TAG = SilpCustomButton.class.getSimpleName();
 
