@@ -180,7 +180,7 @@ public class SilpCustomButton extends LinearLayout {
      */
     private TextView setupTextView() {
         if (mText == null) {
-            mText = "Fancy Button";
+            mText = "SilpCustomButton";
         }
 
         TextView textView = new TextView(mContext);
@@ -685,7 +685,7 @@ public class SilpCustomButton extends LinearLayout {
 
     /**
      * Set Icon Position
-     * Use the global variables (FancyButton.POSITION_LEFT, FancyButton.POSITION_RIGHT, FancyButton.POSITION_TOP, FancyButton.POSITION_BOTTOM)
+     * Use the global variables (SilpCustomButton.POSITION_LEFT, SilpCustomButton.POSITION_RIGHT, SilpCustomButton.POSITION_TOP, SilpCustomButton.POSITION_BOTTOM)
      * @param position : Position
      */
     public void setIconPosition(int position){
@@ -763,7 +763,7 @@ public class SilpCustomButton extends LinearLayout {
     }
 
     /**
-     * Override setEnabled and rebuild the fancybutton view
+     * Override setEnabled and rebuild the silpcustombutton view
      * To redraw the button according to the state : enabled or disabled
      * @param value
      */
@@ -809,7 +809,7 @@ public class SilpCustomButton extends LinearLayout {
     }
 
     /**
-     * Return TextView Object of the FancyButton
+     * Return TextView Object of the SilpCustomButton
      * @return TextView Object
      */
     public TextView getTextViewObject(){
@@ -817,7 +817,7 @@ public class SilpCustomButton extends LinearLayout {
     }
 
     /**
-     * Return Icon Font of the FancyButton
+     * Return Icon Font of the SilpCustomButton
      * @return TextView Object
      */
     public TextView getIconFontObject(){
@@ -825,7 +825,7 @@ public class SilpCustomButton extends LinearLayout {
     }
 
     /**
-     * Return Icon of the FancyButton
+     * Return Icon of the SilpCustomButton
      * @return ImageView Object
      */
     public ImageView getIconImageObject(){
