@@ -21,7 +21,7 @@ Also open project gradle file and add the following statement in dependencies
  
  		dependencies
  		{
-		compile 'com.github.developeravskh:SilpCustomButton:1.0'
+		compile 'com.github.developeravsk:SilpCustomButton:1.0'
 		}
 
 In xml file define the custom button as
